@@ -71,7 +71,7 @@
 /* Straight diagonal fall */
 @keyframes meteor-fall {
     0% {
-        transform: translate3d(0, 0, 0) rotate(-45deg);
+        transform: translate3d(0, 0, 0) rotate(45deg);
         opacity: 0;
     }
 
@@ -80,7 +80,7 @@
     }
 
     100% {
-        transform: translate3d(600px, 900px, 0) rotate(-45deg);
+        transform: translate3d(-600px, 900px, 0) rotate(45deg);
         opacity: 0;
     }
 }
